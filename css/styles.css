@@ -1,0 +1,29 @@
+@keyframes ogAnim {
+  to {
+    background-color: #b3ffff;
+    color: #0000cc;
+    font-size: 100px
+  }
+}
+body {
+  background-color: #ccffff;
+}
+#buttonDiv {
+  display:flex;
+  justify-content: center;
+}
+#theButton {
+  animation: ogAnim 1s linear 0s infinite alternate;
+  background-color: #0000cc;
+  border: 0px;
+  border-radius: 25px;
+  color: #b3ffff;
+  font-family: LobsterTwo;
+  font-size: 50px;
+  height: 300px;
+  width: 500px;
+}
+#theButton:hover {
+  height: 310px;
+  width: 510px;
+}
